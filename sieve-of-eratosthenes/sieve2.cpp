@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <vector>
 
-const int SIEVE_COUNT = 100000000;
+const int SIEVE_COUNT = 1000;
 
 //faster version
 int main(){
@@ -22,4 +22,5 @@ int main(){
         }
     }
 
+    return 0;
 }

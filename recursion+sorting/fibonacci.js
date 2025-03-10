@@ -57,3 +57,17 @@ function merge(arr1, arr2){
 }
 
 console.log(mergesort([42, 17, 93, 8, 56, 23, 77, 11, 65, 39, 88, 14, 99, 4, 50, 31, 72, 6, 81, 27]))
+
+function mult35sumrec(num){
+    sum = 0
+    if (num == 1){
+        return 0
+    }
+    if (num % 3 == 0 || num % 5 == 0){
+        sum += num
+    }
+
+    return sum + mult35(num-1)
+}
+
+console.log(mult35sumrec(1000-1))

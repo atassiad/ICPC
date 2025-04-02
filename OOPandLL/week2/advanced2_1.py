@@ -40,4 +40,3 @@ def problem1():
     playlist2 = Node(('Dreams', 'Solange'), Node(('First', 'Gallant')))
 
     print_linked_list(merge_playlists(playlist1, playlist2, 2, 3))
-problem1()
